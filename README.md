@@ -229,6 +229,25 @@ performance = evaluate_portfolio_performance(
 - Implement stability constraints (max 5% change)
 - Analyze cost of enforcing stability
 
+## 📊 Key Results
+
+*(Update with your actual results)*
+
+### Out-of-Sample Performance (2019 → 2020)
+
+| Metric | 2019 Portfolio on 2019 | 2019 Portfolio on 2020 | NDX 2020 |
+|--------|----------------------|----------------------|----------|
+| CVaR (β=0.95) | X.XXXX | X.XXXX | X.XXXX |
+| Average Return | X.XX% | X.XX% | X.XX% |
+| Sharpe Ratio | X.XX | X.XX | X.XX |
+
+### Parameter Sensitivity (β values)
+
+| β | # Stocks | Top Stock Weight | CVaR (2019) | CVaR (2020) |
+|---|----------|------------------|-------------|-------------|
+| 0.90 | XX | XX.X% | X.XXXX | X.XXXX |
+| 0.95 | XX | XX.X% | X.XXXX | X.XXXX |
+| 0.99 | XX | XX.X% | X.XXXX | X.XXXX |
 
 ## 🔬 Methodology
 
@@ -280,10 +299,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Mohar Chaudhuri**
+**Momo**
 - MS Business Analytics, UT Austin McCombs
 - Focus: Financial Analytics & Optimization
-- [LinkedIn](https://www.linkedin.com/in/mohar-chaudhuri/) | [Email](moharchaudhuri.ofc@gmail.com)
+- [LinkedIn](your-linkedin-url) | [Email](your-email)
 
 ## 🙏 Acknowledgments
 
@@ -291,6 +310,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - UT Austin McCombs School of Business
 - Gurobi Optimization for their excellent solver and academic program
 
+## 📧 Contact
+
+For questions or feedback, please open an issue or contact [your-email].
 
 ---
 
