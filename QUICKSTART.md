@@ -227,34 +227,3 @@ results/
 └── reports/             # Analysis reports (.pdf)
 ```
 
-## Troubleshooting
-
-### "Gurobi license not found"
-- Make sure you've run `grbgetkey YOUR-LICENSE-KEY`
-- Check that license file is in the correct location
-
-### "ModuleNotFoundError: No module named 'src'"
-- Make sure you're running from the project root directory
-- Or install the package: `pip install -e .`
-
-### "Optimization infeasible"
-- Your R_target might be too high
-- Try lowering minimum return requirement
-- Check for data quality issues (NaN, infinite values)
-
-### "Out of memory"
-- Reduce number of scenarios (use weekly instead of daily data)
-- Or optimize in batches
-
-## Next Steps
-
-- Read the full [documentation](docs/methodology.md)
-- Explore [example notebooks](notebooks/)
-- Check out the [API reference](docs/api_reference.md)
-- Contribute! See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## Getting Help
-
-- Open an [issue](https://github.com/yourusername/cvar-portfolio-optimization/issues)
-- Read the [FAQ](docs/faq.md)
-- Email: your.email@example.com
