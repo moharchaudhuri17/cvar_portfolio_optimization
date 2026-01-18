@@ -301,7 +301,7 @@ MIT License - See LICENSE file
 
 ## 👤 Author
 
-**Momo**
+**Mohar Chaudhuri**
 - MS Business Analytics, UT Austin McCombs
 - Financial Analytics Track
 - Class of 2026
